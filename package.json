@@ -1,6 +1,6 @@
 {
   "name": "@plmrry/now",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "description": "Build, open, and run a Parcel.js app",
   "main": "index.js",
   "bin": {
