@@ -98,7 +98,7 @@ withinDirectory(dirName, exec => {
   exec(`npm install parcel-bundler babel-preset-react`);
   exec(`git init`);
   log("Opening Visual Studio Code...");
-  exec(`code .`);
+  exec(`code script.js`);
   log("Running Parcel...");
   exec(`npx parcel index.html --open`, { stdio: "inherit" });
 });
