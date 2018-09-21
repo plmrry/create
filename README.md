@@ -2,8 +2,6 @@
 
 Create a [Parcel.js](https://parceljs.org/) app right now.
 
-Not to be confused with [Now by zeit.co](https://zeit.co/docs).
-
 ## Usage
 
 ```bash
