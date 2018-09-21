@@ -1,5 +1,5 @@
 {
-  "name": "@plmrry/now",
+  "name": "@plmrry/create",
   "version": "0.0.16",
   "description": "Build, open, and run a Parcel.js app",
   "main": "index.js",
