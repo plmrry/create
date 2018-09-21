@@ -1,4 +1,4 @@
-# @plmrry/now
+# @plmrry/create
 
 Create a [Parcel.js](https://parceljs.org/) app right now.
 
@@ -7,7 +7,7 @@ Not to be confused with [Now by zeit.co](https://zeit.co/docs).
 ## Usage
 
 ```bash
-npx @plmrry/now
+npx @plmrry/create
 ```
 
 ## What it does
