@@ -54,6 +54,9 @@ const babelrc = `
 
 const eslint = `
 {
+  "extends": [
+    "plugin:react-app/recommended"
+  ],
   "parserOptions": {
     "ecmaVersion": 2018,
     "sourceType": "module",
@@ -95,7 +98,7 @@ withinDirectory(dirName, exec => {
   exec(`npm init --yes`);
   log("Installing dependencies...");
   exec(`npm install eslint --save-dev`);
-  exec(`npm install parcel-bundler babel-preset-react`);
+  exec(`npm install parcel-bundler babel-preset-react eslint-plugin-react-app`);
   exec(`git init`);
   log("Opening Visual Studio Code...");
   exec(`code .`);
