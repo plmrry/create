@@ -1,1 +1,4 @@
 node_modules
+ignored
+temp
+template/package.json
