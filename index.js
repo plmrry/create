@@ -36,5 +36,5 @@ exec(`npm install ${devDependencies.join(" ")} --save-dev`);
 exec(`git init`);
 log("Opening Visual Studio Code...");
 exec(`code .`);
-log("Running Parcel...");
-exec(`npx parcel src/index.html --open`);
+// log("Running Parcel...");
+// exec(`npx parcel src/index.html --open`);
