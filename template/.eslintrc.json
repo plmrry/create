@@ -18,6 +18,8 @@
     "no-unused-vars": ["warn", { "varsIgnorePattern": "h" }],
     "no-unreachable": "warn",
     "no-console": "off",
-    "react/jsx-uses-vars": "error"
+    "no-use-before-define": "error",
+    "react/jsx-uses-vars": "error",
+    "react/jsx-no-undef": "error"
   }
 }
