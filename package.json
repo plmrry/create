@@ -1,6 +1,6 @@
 {
   "name": "@plmrry/create",
-  "version": "0.0.20",
+  "version": "0.0.21",
   "description": "Build, open, and run an app",
   "main": "index.js",
   "bin": {
