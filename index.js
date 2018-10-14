@@ -29,6 +29,16 @@ require("fs").writeFileSync(`${cwd}/.gitignore`, gitignore);
 // Add package.json
 exec(`npm init --yes`);
 
+// Add scripts to package.json
+const pkg = require(`${cwd}/package.json`);
+pkg.scripts = {
+  start: `parcel src/index.html`
+};
+require("fs").writeFileSync(
+  `${cwd}/package.json`,
+  JSON.stringify(pkg, null, 2)
+);
+
 // Install dependencies
 const devDependencies = ["eslint", "eslint-plugin-react", "parcel-bundler"];
 log("Installing dependencies...");
