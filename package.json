@@ -7,7 +7,7 @@
     "create": "bin/create"
   },
   "scripts": {
-    "patch-and-publish": "npm version patch && npm publish"
+    "deploy": "npm version patch && git push --tags && npm publish"
   },
   "author": "Paul Murray",
   "license": "ISC",
