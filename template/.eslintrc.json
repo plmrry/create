@@ -7,7 +7,7 @@
     }
   },
   "plugins": ["react"],
-  "extends": "eslint:recommended",
+  "extends": ["eslint:recommended", "plugin:react/recommended"],
   "env": {
     "browser": true,
     "node": true,
@@ -15,7 +15,7 @@
   },
   "rules": {
     "no-undef": "error",
-    "no-unused-vars": ["warn", { "varsIgnorePattern": "h" }],
+    "no-unused-vars": "warn",
     "no-unreachable": "warn",
     "no-console": "off",
     "no-use-before-define": "error",
