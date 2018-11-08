@@ -1,17 +1,20 @@
 {
   "name": "@plmrry/create",
-  "version": "0.0.16",
-  "description": "Build, open, and run a Parcel.js app",
+  "version": "0.0.21",
+  "description": "Build, open, and run an app",
   "main": "index.js",
   "bin": {
-    "now": "bin/now"
+    "create": "bin/create"
   },
   "scripts": {
     "patch-and-publish": "npm version patch && npm publish"
   },
-  "dependencies": {
-    "hashwords": "^1.0.0"
-  },
   "author": "Paul Murray",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^5.6.1",
+    "eslint-plugin-react": "^7.11.1",
+    "parcel-bundler": "^1.10.2",
+    "preact": "^8.3.1"
+  }
 }
