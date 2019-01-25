@@ -40,7 +40,7 @@ require("fs").writeFileSync(
 );
 
 // Install dependencies
-const devDependencies = ["eslint", "eslint-plugin-react", "parcel-bundler"];
+const devDependencies = ["eslint", "eslint-plugin-react", "parcel-bundler", "react@next", "react-dom@next"];
 log("Installing dependencies...");
 exec(`npm install ${devDependencies.join(" ")} --save-dev`);
 exec(`git init`);
